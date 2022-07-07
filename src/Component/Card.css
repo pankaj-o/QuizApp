@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background: rgb(89, 89, 89); */
+  box-sizing: border-box;
+}
+.Outer_body {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  margin: 30px;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: lightgoldenrodyellow;
+}
+.bttn:hover {
+  cursor: pointer;
+}
+.card_container {
+  background: linear-gradient(
+    90deg,
+    rgb(237, 232, 232),
+    rgb(173, 172, 172),
+    rgb(108, 107, 107)
+  );
+  display: flex;
+
+  box-shadow: 10px 10px 30px rgb(252, 242, 242);
+  width: 57%;
+  max-width: 57%;
+}
+.card_container:hover {
+  border: 1px soilid black;
+
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.card_container_left {
+  padding: 3px;
+  height: auto;
+  width: 50%;
+}
+.question_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.Question {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timedive {
+  margin: 5px;
+}
+.card_container_right {
+  border-left: 2px solid black;
+  display: flex;
+  padding: 3px;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+}
+.card_container_right_items {
+  display: flex;
+  flex-direction: column;
+}
+.card_container_right_items button {
+  margin: 2px;
+  padding: 5px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.card_container_right_items button:hover {
+  background: rgb(155, 172, 234);
+  height: 60px;
+  font-size: 1.1rem;
+}
+.submitbtn {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.submitbtn button {
+  width: 100%;
+}
+.submitbtn button:hover {
+  width: 100%;
+  background: rgb(108, 233, 144);
+}
+
+.btnnps {
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.nextprevbtn {
+  margin: 15px 10px 0px 10px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.nextprevbtn button {
+  width: 60px;
+}
